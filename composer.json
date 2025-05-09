@@ -6,7 +6,8 @@
     "autoload": {
         "psr-4": {
             "Lukarobajac\\PhpGrpc\\": "src/",
-            "Event_store\\": "src/Event_store"
+            "Event_store\\": "src/Event_store",
+            "GPBMetadata\\": "src/GPBMetadata"
         }
     },
     "authors": [
