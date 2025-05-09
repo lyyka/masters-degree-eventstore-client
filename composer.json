@@ -1,0 +1,22 @@
+{
+    "name": "lukarobajac/php-grpc",
+    "description": "PHP gRPC wrapper",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Lukarobajac\\PhpGrpc\\": "src/",
+            "Event_store\\": "src/Event_store"
+        }
+    },
+    "authors": [
+        {
+            "name": "Luka Robajac",
+            "email": "luka.robajac@gmail.com"
+        }
+    ],
+    "require": {
+        "grpc/grpc": "^1.57",
+        "google/protobuf": "^4.30"
+    }
+}
