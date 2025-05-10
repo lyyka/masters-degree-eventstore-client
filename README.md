@@ -37,7 +37,7 @@ sudo pecl install protobuf-3.20.0
 ## Build proto files
 
 ```shell
-protoc --proto_path=. --php_out=/var/www/html/src --grpc_out=/var/www/html/src --plugin=protoc-gen-grpc=/var/www/grpc/cmake/build/grpc_php_plugin streams.proto shared.proto status.proto persistent.proto
+protoc --proto_path=. --php_out=/var/www/html/src --grpc_out=/var/www/html/src --plugin=protoc-gen-grpc=/var/www/grpc/cmake/build/grpc_php_plugin streams.proto shared.proto status.proto persistent.proto code.proto
 ```
 
 ## Event Store Docs
